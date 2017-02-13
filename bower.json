@@ -1,0 +1,6 @@
+{
+  "name": "shop",
+  "dependencies": {
+    "uikit": "^2.27.2"
+  }
+}
