@@ -1,3 +1,9 @@
-<p>
-  cart-summary works!
-</p>
+<div class="box">
+  <div class="uk-grid uk-grid-width-1-2">
+    <div class="box-title">Summary</div>
+    <div>Quantity: {{totalItems()}}</div>
+    <div><b>Total</b></div>
+    <div>GBP <b>{{totalPrice() | currency:'GBP':true }}</b> <small>Duties & Taxes included</small></div>
+  </div>
+
+</div>
