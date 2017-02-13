@@ -1,9 +1,10 @@
 <div class="box">
-  <div class="uk-grid uk-grid-width-1-2">
+  <div class="uk-grid uk-grid-collapse uk-grid-width-1-2 uk-flex uk-flex-middle">
     <div class="box-title">Summary</div>
-    <div>Quantity: {{totalItems()}}</div>
-    <div><b>Total</b></div>
-    <div>GBP <b>{{totalPrice() | currency:'GBP':true }}</b> <small>Duties & Taxes included</small></div>
+    <div class="text-right text-subtle">Quantity: {{totalItems()}}</div>
   </div>
-
+  <div class="uk-grid uk-grid-collapse uk-grid-width-1-2">
+    <div><b>Total</b></div>
+    <div class="text-right">GBP <b>{{totalPrice() | currency:'GBP':true }}</b> <br><small class="text-subtle">Duties & Taxes included</small></div>
+  </div>
 </div>
