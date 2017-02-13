@@ -4,7 +4,6 @@
 
 .l-container {
     box-sizing: border-box;
-    max-width: $utility-container-max-width;
     padding: 0 $utility-container-padding-horizontal;
     margin-left: auto;
     margin-right: auto;
@@ -14,7 +13,6 @@
 @media (min-width: $breakpoint-xlarge) {
 
     .l-container {
-        max-width: $utility-container-large-max-width;
         padding: 0 $utility-container-large-padding-horizontal;
     }
 
