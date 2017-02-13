@@ -1,0 +1,7 @@
+/*------------------------------------*\
+    #FONTS
+\*------------------------------------*/
+
+@include font-face('Polaris Book', '../assets/fonts/polaris-book-webfont',null, null, eot svg ttf woff);
+@include font-face('Polaris Bold', '../assets/fonts/polaris-bold-webfont',null, null, eot svg ttf woff);
+@include font-face('Polaris Condensed', '../assets/fonts/polariscondensed-bold-webfont',null, null, eot svg ttf woff);

@@ -1,0 +1,25 @@
+/*------------------------------------*\
+    #MAIN
+\*------------------------------------*/
+
+// =============================================================================
+// UiKit stuff
+// =============================================================================
+@import "../../bower_components/uikit/scss/uikit-mixins.scss";
+$icon-font-path: "../../bower_components/uikit/fonts";
+
+$grid-gutter-small-horizontal: 6px;
+$grid-gutter-small-vertical: $grid-gutter-small-horizontal;
+@import "../../bower_components/uikit/scss/core/variables.scss";
+@import "../../bower_components/uikit/scss/core/grid.scss";
+
+// =============================================================================
+// App stuff
+// =============================================================================
+
+@import "base/reset";
+@import "base/colors";
+@import "base/mixins";
+@import "base/fonts";
+@import "base/page";
+@import "base/media";
