@@ -6,6 +6,10 @@
   padding: 20px 5px;
 
   background-color: #fff;
+
+  > *:not(:first-child) {
+    margin-top: 15px;
+  }
 }
 
   .box-title{
