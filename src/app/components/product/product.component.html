@@ -1,3 +1,13 @@
-<p>
-  product works!
-</p>
+<div class="product-wrapper">
+  <img [src]="product.image" [alt]="product.description" class="product-image">
+  <h3 class="product-name">{{product.name}}</h3>
+  <p class="product-description">{{product.description}}</p>
+  <p class="product-price">
+    <s *ngIf="product.priceOff!==0" class="text-subtle">{{product.priceOff | currency:'GBP':true}}</s>
+    <span [class.text-danger]="product.priceOff">{{product.price | currency:'GBP':true}}</span>
+    <span *ngIf="product.priceOff!==0"> | {{percentOff(product)}}% off</span>
+  </p>
+</div>
+
+<button class="button product-btn-add" (click)="addToCart(product)"> Add to bag</button>
+<button class="button product-btn-remove" (click)="removeFromCart(product)"> Remove from bag</button>
