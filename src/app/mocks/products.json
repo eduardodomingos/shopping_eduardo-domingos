@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Tanya Taylor",
+      "description": "'Baby Doll' striped peplum top",
+      "price": 1585,
+      "priceOff": 500,
+      "image": "assets/images/11730556_8194858_255.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Coach 1941",
+      "description": "origami pleat houndstooth trousers houndstooth",
+      "price": 500.89,
+      "priceOff": 0,
+      "image": "assets/images/11734827_8179707_255.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Forte Couture",
+      "description": "varsity bomber jacket",
+      "price": 480.90,
+      "priceOff": 0,
+      "image": "assets/images/11735583_8161812_255.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fendi",
+      "description": "fox flur coat",
+      "price": 480.89,
+      "priceOff": 0,
+      "image": "assets/images/11736243_8231608_255.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Fendi",
+      "description": "fox flur coat",
+      "price": 480.89,
+      "priceOff": 0,
+      "image": "assets/images/11745743_8214817_255.jpg"
+    }
+  ]
+}
