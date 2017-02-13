@@ -1,0 +1,28 @@
+/*------------------------------------*\
+    #BUTTON
+\*------------------------------------*/
+
+.button {
+  padding: 5px 0;
+  border: 1px solid $alto;
+  border-radius: 40px;
+  box-shadow: 1px 0 1px $alto;
+
+  background-color: #fff;
+  color: $mine-shaft;
+
+  font-family: 'Polaris Bold', sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+
+  cursor: pointer;
+  outline: none;
+
+  @include attention() {
+    border-color: $mine-shaft;
+
+    background-color: $mine-shaft;
+    color: #fff;
+  }
+}
