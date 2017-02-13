@@ -1,3 +1,5 @@
-<p>
-  cart-bag works!
-</p>
+<ul class="uk-grid uk-grid-small uk-grid-width-medium-1-5 uk-grid-match">
+  <li *ngFor="let product of products">
+    <article [product]="product" class="product"></article>
+  </li>
+</ul>
