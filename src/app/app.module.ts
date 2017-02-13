@@ -9,6 +9,9 @@ import { CartBagComponent } from './components/cart-bag/cart-bag.component';
 import { CartSummaryComponent } from './components/cart-summary/cart-summary.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 
+import { ProductDataService } from './services/data/product-data.service';
+import { CartService } from './services/cart/cart.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,10 @@ import { ProductListComponent } from './components/product-list/product-list.com
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [
+    ProductDataService,
+    CartService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
