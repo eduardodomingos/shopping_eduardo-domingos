@@ -9,7 +9,7 @@ export class ProductDataService {
   constructor(private http: Http) { }
 
   getProducts() {
-  return this.http.get('app/mocks/products.json')
+  return this.http.get('assets/mocks/products.json')
     .map(response => <Product[]>response.json().data);
   }
 
